@@ -25,7 +25,7 @@ function Categories() {
               borderColor: "transparent",
             }}
           >
-            <NavLink to="/">
+            <NavLink to="/activity-generator/">
               <img src={backIcon} alt="back button" />
             </NavLink>
           </button>
@@ -33,7 +33,7 @@ function Categories() {
         </div>
         <div id="icons">
           <img src={eduIcon} alt="books" />
-          <img src={recIcon} alt="bicycle" />
+          <img src={recIcon} alt="home" />
           <img src={socIcon} alt="people" />
           <img src={diyIcon} alt="tools" />
           <img src={charityIcon} alt="cash" />

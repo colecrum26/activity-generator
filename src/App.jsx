@@ -24,7 +24,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/activity-generator" element={<Header />}></Route>
+        <Route path="/activity-generator/" element={<Header />}></Route>
         <Route path="/activity-generator/categories" element={<Categories />}></Route>
         <Route path="/activity-generator/categories/educational" element={<Educational />}></Route>
         <Route path="/activity-generator/categories/recreational" element={<Recreational />}></Route>

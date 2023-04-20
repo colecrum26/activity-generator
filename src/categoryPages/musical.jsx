@@ -40,7 +40,7 @@ function Musical() {
         id="back"
         style={{ backgroundColor: "transparent", borderColor: "transparent" }}
       >
-        <NavLink to="/activity-generator/categories">
+        <NavLink to="/activity-generator/categories/">
           <img src={backIcon} alt="back button" />
         </NavLink>
       </button>

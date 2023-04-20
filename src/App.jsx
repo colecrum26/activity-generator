@@ -24,17 +24,17 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<Header />}></Route>
-        <Route exact path="/categories" element={<Categories />}></Route>
-        <Route path="/educational" element={<Educational />}></Route>
-        <Route path="/recreational" element={<Recreational />}></Route>
-        <Route path="/social" element={<Social />}></Route>
-        <Route path="/diy" element={<DIY />}></Route>
-        <Route path="/charity" element={<Charitable />}></Route>
-        <Route path="/cooking" element={<Cooking />}></Route>
-        <Route path="/relaxation" element={<Relaxation />}></Route>
-        <Route path="/music" element={<Musical />}></Route>
-        <Route path="/busywork" element={<Busywork />}></Route>
+        <Route path="/activity-generator" element={<Header />}></Route>
+        <Route path="/activity-generator/categories" element={<Categories />}></Route>
+        <Route path="/activity-generator/categories/educational" element={<Educational />}></Route>
+        <Route path="/activity-generator/categories/recreational" element={<Recreational />}></Route>
+        <Route path="/activity-generator/categories/social" element={<Social />}></Route>
+        <Route path="/activity-generator/categories/diy" element={<DIY />}></Route>
+        <Route path="/activity-generator/categories/charity" element={<Charitable />}></Route>
+        <Route path="/activity-generator/categories/cooking" element={<Cooking />}></Route>
+        <Route path="/activity-generator/categories/relaxation" element={<Relaxation />}></Route>
+        <Route path="/activity-generator/categories/music" element={<Musical />}></Route>
+        <Route path="/activity-generator/categories/busywork" element={<Busywork />}></Route>
       </Routes>
       <div
         style={{

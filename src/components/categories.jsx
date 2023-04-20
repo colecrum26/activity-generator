@@ -46,17 +46,17 @@ function Categories() {
         <h4>Choose a category you want to explore.</h4>
       </header>
       <div id="categoryBtnsS1">
-          <NavLink to="/educational"> <button>Educational</button></NavLink>
-          <NavLink to="/recreational"> <button>Recreational</button> </NavLink>
-          <NavLink to="/social"> <button>Social</button> </NavLink>
-          <NavLink to="/diy"> <button>DIY</button> </NavLink>
-          <NavLink to="/charity"> <button>Charitable</button> </NavLink>
+          <NavLink to="/activity-generator/categories/educational"> <button>Educational</button></NavLink>
+          <NavLink to="/activity-generator/categories/recreational"> <button>Recreational</button> </NavLink>
+          <NavLink to="/activity-generator/categories/social"> <button>Social</button> </NavLink>
+          <NavLink to="/activity-generator/categories/diy"> <button>DIY</button> </NavLink>
+          <NavLink to="/activity-generator/categories/charity"> <button>Charitable</button> </NavLink>
       </div>
       <div id="categoryBtnsS2">
-          <NavLink to="/cooking"> <button>Cooking</button> </NavLink>
-          <NavLink to="/relaxation"> <button>Relaxation</button> </NavLink>
-          <NavLink to="/music"> <button>Musical</button> </NavLink>
-          <NavLink to="/busywork"> <button>Busywork</button> </NavLink>
+          <NavLink to="/activity-generator/categories/cooking"> <button>Cooking</button> </NavLink>
+          <NavLink to="/activity-generator/categories/relaxation"> <button>Relaxation</button> </NavLink>
+          <NavLink to="/activity-generator/categories/music"> <button>Musical</button> </NavLink>
+          <NavLink to="/activity-generator/categories/busywork"> <button>Busywork</button> </NavLink>
       </div>
     </div>
   );

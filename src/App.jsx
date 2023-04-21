@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/header";
 import Categories from "./components/categories";
 import {
@@ -13,12 +14,6 @@ import {
   Busywork
 } from "./categoryPages/index";
 
-import {
-  BrowserRouter as 
-  Router,
-  Routes,
-  Route,
-} from "react-router-dom";
 
 function App() {
   return (

@@ -28,7 +28,7 @@ body {
   align-items: center;
   font-size: 1.25em;
 }
-a { 
+a {
   text-decoration: none;
 }
 
@@ -52,6 +52,7 @@ a {
 #topRow {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-left: -28px;
 }
 
@@ -59,9 +60,31 @@ a {
   margin-left: -12px;
 }
 
-#activityHeader {
+#eduHeader,
+#recHeader,
+#socHeader,
+#diyHeader,
+#charHeader,
+#cookHeader,
+#relHeader,
+#musHeader,
+#busHeader {
   display: flex;
-  justify-content: flex-start;
+  align-items: center;
+  margin: 0 0 -13px -32px;
+}
+#eduBR,
+#recBR,
+#socBR,
+#diyBR,
+#charBR,
+#cookBR,
+#relBR,
+#musBR,
+#busBR {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
@@ -81,9 +104,12 @@ button {
 button:hover {
   border-color: #d88f08;
 }
+.back {
+  margin: 5px 0 0 0;
+}
 
 label {
-  font-weight: 500;
+  font-weight: 555;
 }
 
 @media (prefers-color-scheme: light) {

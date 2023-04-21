@@ -19,7 +19,7 @@ function Categories() {
         <div id="topRow">
           <button
             type="submit"
-            id="home"
+            className="back"
             style={{
               backgroundColor: "transparent",
               borderColor: "transparent",
@@ -33,12 +33,12 @@ function Categories() {
         </div>
         <div id="icons">
           <img src={eduIcon} alt="books" />
-          <img src={recIcon} alt="home" />
+          <img src={recIcon} alt="play" />
           <img src={socIcon} alt="people" />
           <img src={diyIcon} alt="tools" />
           <img src={charityIcon} alt="cash" />
           <img src={cookIcon} alt="utensils" />
-          <img src={relIcon} alt="battery" />
+          <img src={relIcon} alt="home" />
           <img src={musIcon} alt="headphones" />
           <img src={busyIcon} alt="clock" />
         </div>

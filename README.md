@@ -1,25 +1,22 @@
 # Activity Generator
 
 # Table of Contents
-- [Wireframing](#wireframing)
 - [Description](#description)
 - [Installation](#installation)
+- [Wireframing](#wireframing)
 - [Development Process](#development-process)
 - [Usage](#usage)
 - [App in Use](#app-in-use)
 - [Questions](#questions)
 - [License](#license)
+## Description
+This project is a front-end API built in Vite + React that allows bored users to randomly generate an activity based on a category of their choosing.
+## Installation
+As the app is front-end focused, no direct installations are required. The app is hosted through GitHub Pages at [Activity Generator](https://colecrum26.github.io/activity-generator/).
 ## Wireframing
 ![website wireframe](/images/wireframe.png)
 This was my original design for the project. After delving further into the API documentation, I needed to adjust my proposal since the API only allows one parameter to be called at a time.
 ![updated wireframe](/images/newWireframe.png)
-
-## Description
-This project is a front-end API built in Vite + React that allows bored users to randomly generate an activity based on a category of their choosing.
-
-## Installation
-As the app is front-end focused, no direct installations are required. The app is hosted through GitHub Pages at [Activity Generator](https://colecrum26.github.io/activity-generator/).
-
 ## Development Process
 The API I am utilizing in this project can be found here:
 [Bored API](https://www.boredapi.com/documentation).
@@ -43,6 +40,7 @@ I chose to display the description (i.e. the activity itself), the number of par
 Buttons for each type of activity are displayed on the filter page. The type names match the API query syntax to ensure when the user selects their desired category, the result is routed through a Component and rendered on the page; each type has its own Component page with the query-by-type hardcoded in the fetch.
 
 ## App in Use
+![Activity Generator in Use](./images/ag.gif)
 
 ## What I Learned
 My main takeaway from this project was that APIs can function differently and knowing how to utilize them is key. In past projects, I have used APIs that allow multiple queries to be interpolated, which allows for more specific calls to be made. In this case, the API query was limited to one factor (i.e. query-chaining was not available). As a result, I needed to reconsider my proposal and the design for my app. In the end, it became much simpler in terms of functionality than I originally intended.

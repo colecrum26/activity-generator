@@ -25,7 +25,7 @@ function Educational() {
   }, []);
 
   return (
-    <div>
+    <div id="eduAct">
       <h2 id="eduHeader">
         <button
           type="submit"

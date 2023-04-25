@@ -25,7 +25,7 @@ function Cooking() {
   }, []);
 
   return (
-    <div>
+    <div id="cookAct">
       <h2 id="cookHeader">
         <button
           type="submit"

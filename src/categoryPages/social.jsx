@@ -25,7 +25,7 @@ function Social() {
   }, []);
 
   return (
-    <div>
+    <div id="socAct">
       <h2 id="socHeader">
         <button
           type="submit"

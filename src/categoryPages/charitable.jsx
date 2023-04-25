@@ -25,7 +25,7 @@ function Charitable() {
   }, []);
 
   return (
-    <div>
+    <div id="charAct">
       <h2 id="charHeader">
         <button
           type="submit"

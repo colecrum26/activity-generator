@@ -25,7 +25,7 @@ function Recreational() {
   }, []);
 
   return (
-    <div>
+    <div id="recAct">
       <h2 id="recHeader">
         <button
           type="submit"

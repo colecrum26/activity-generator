@@ -40,13 +40,13 @@ a {
 #categoryBtnsS1 {
   display: flex;
   flex-wrap: wrap;
-  padding: 12px;
+  padding-bottom: 3px;
 }
 #categoryBtnsS2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 6px;
+  padding-top: 3px;
 }
 
 #topRow {
@@ -122,5 +122,33 @@ label {
   }
   button {
     background-color: rgba(163, 163, 163, 0.87);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #button-container {
+    display: flex;
+    margin: 0 20px 0 20px;
+
+  }
+  #categoryBtnsS1 {
+    justify-content: space-around;
+    padding: 6px;
+  }
+  #categoryBtnsS2 {
+    justify-content: space-around;
+    padding: 6px;
+  }
+  #eduAct,
+  #recAct,
+  #socAct,
+  #diyAct,
+  #charAct,
+  #cookAct,
+  #relAct,
+  #musAct,
+  #busAct {
+    margin: 40px;
+    font-size: smaller;
   }
 }

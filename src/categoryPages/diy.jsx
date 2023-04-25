@@ -25,7 +25,7 @@ function DIY() {
   }, []);
 
   return (
-    <div>
+    <div id="diyAct">
       <h2 id="diyHeader">
         <button
           type="submit"

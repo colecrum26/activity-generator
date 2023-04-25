@@ -31,15 +31,6 @@ function App() {
         <Route path="/activity-generator/categories/music" element={<Musical />}></Route>
         <Route path="/activity-generator/categories/busywork" element={<Busywork />}></Route>
       </Routes>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-      </div>
     </Router>
   );
 }

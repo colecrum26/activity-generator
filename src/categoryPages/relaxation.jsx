@@ -25,7 +25,7 @@ function Relaxation() {
   }, []);
 
   return (
-    <div>
+    <div id="relAct">
       <h2 id="relHeader">
         <button
           type="submit"

@@ -25,7 +25,7 @@ function Musical() {
   }, []);
 
   return (
-    <div>
+    <div id="musAct">
       <h2 id="musHeader">
         <button
           type="submit"

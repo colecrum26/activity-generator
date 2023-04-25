@@ -45,6 +45,7 @@ function Categories() {
         <h3>Let's find an activity for you.</h3>
         <h4>Choose a category you want to explore.</h4>
       </header>
+      <div id="button-container">
       <div id="categoryBtnsS1">
           <NavLink to="/activity-generator/categories/educational"> <button>Educational</button></NavLink>
           <NavLink to="/activity-generator/categories/recreational"> <button>Recreational</button> </NavLink>
@@ -57,6 +58,7 @@ function Categories() {
           <NavLink to="/activity-generator/categories/relaxation"> <button>Relaxation</button> </NavLink>
           <NavLink to="/activity-generator/categories/music"> <button>Musical</button> </NavLink>
           <NavLink to="/activity-generator/categories/busywork"> <button>Busywork</button> </NavLink>
+      </div>
       </div>
     </div>
   );

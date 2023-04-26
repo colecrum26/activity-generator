@@ -38,7 +38,7 @@ function Social() {
         </button>
         Social Activity <img src={socIcon} className="icon" alt="people" />
       </h2>
-      <h4>Activity: {data.activity}</h4>
+      <h4 style={{wordWrap: "normal", width: "400px"}}>Activity: {data.activity}</h4>
       <h4>Number of Participants: {data.participants}</h4>
       <h4>Price: {data.price * 10}</h4>
       <p>Price is scaled 0-10, with 0 being free.</p>

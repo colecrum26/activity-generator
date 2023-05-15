@@ -40,6 +40,7 @@ a {
 #categoryBtnsS1 {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding-bottom: 3px;
 }
 #categoryBtnsS2 {
@@ -72,6 +73,18 @@ a {
   display: flex;
   align-items: center;
   margin: 0 0 -13px -29px;
+}
+#eduAct,
+#recAct,
+#socAct,
+#diyAct,
+#charAct,
+#cookAct,
+#relAct,
+#musAct,
+#busAct {
+  margin-left: 40px;
+  font-size: smaller;
 }
 #eduBR,
 #recBR,
@@ -126,20 +139,7 @@ label {
   }
 }
 
-@media screen and (max-width: 460px) {
-  #button-container {
-    display: flex;
-    margin: 0 20px 0 20px;
-
-  }
-  #categoryBtnsS1 {
-    justify-content: space-around;
-    padding: 6px;
-  }
-  #categoryBtnsS2 {
-    justify-content: space-around;
-    padding: 6px;
-  }
+@media screen and (min-width: 600px) {
   #eduAct,
   #recAct,
   #socAct,
@@ -150,6 +150,6 @@ label {
   #musAct,
   #busAct {
     margin: 40px;
-    font-size: smaller;
+    font-size:medium;
   }
 }
